@@ -12,7 +12,7 @@ A RESTful expense management API built with **FastAPI** that allows users to cre
 
 - **Live API:** https://smart-expense-tracker-mpo7.onrender.com
 - **Swagger UI:** https://smart-expense-tracker-mpo7.onrender.com/docs
-- 
+  
 ## 🚀 Features
 
 * ✅ Add a new expense
