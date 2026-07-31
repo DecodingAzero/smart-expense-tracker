@@ -1,6 +1,6 @@
 from typing import Optional
 
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, HTTPException, status
 
 from src.models import Expense
 from src.storage import (
@@ -19,7 +19,10 @@ def home():
     }
 
 
-@router.post("/expenses")
+@router.post(
+    "/expenses",
+    status_code=status.HTTP_201_CREATED
+)
 def add_expense(expense: Expense):
 
     expenses = load_expenses()
@@ -38,12 +41,6 @@ def add_expense(expense: Expense):
 
     return new_expense
 
-from fastapi import status
-
-@router.post(
-    "/expenses",
-    status_code=status.HTTP_201_CREATED
-)
 
 @router.get("/expenses")
 def get_expenses(category: Optional[str] = None):

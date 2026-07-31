@@ -5,7 +5,7 @@ DATA_FILE = Path(__file__).parent / "expenses.json"
 
 
 def load_expenses():
-    with open(DATA_FILE, "w", encoding="utf-8") as file:
+    with open(DATA_FILE, "r", encoding="utf-8") as file:
         return json.load(file)
 
 
