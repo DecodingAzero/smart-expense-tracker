@@ -3,7 +3,11 @@
 A RESTful expense management API built with **FastAPI** that allows users to create, view, filter, summarize, and delete personal expense records. The project demonstrates REST API design, request validation, modular backend architecture, JSON-based data persistence, and automated testing.
 
 ---
+## 🌐 Live Demo
 
+- **API:** https://smart-expense-tracker-mpo7.onrender.com
+- **Swagger UI:** https://smart-expense-tracker.onrender.com/docs
+- 
 ## 🚀 Features
 
 * ✅ Add a new expense
