@@ -5,18 +5,17 @@
 The Smart Expense Tracker API is a RESTful web service built using **FastAPI**. It allows users to manage personal expenses by creating, viewing, filtering, calculating totals, and deleting expense records.
 
 Expense data is stored in a local JSON file, so no database setup is required.
-
                 Client
                    │
-             HTTP Requests
+          HTTP Requests
                    │
              FastAPI Router
                    │
      ┌─────────────┴─────────────┐
      │                           │
- Pydantic Validation        Storage Layer
-                                 │
-                            expenses.json
+ Pydantic Validation      Storage Layer
+                                   │
+                             expenses.json
 
 ## Features
 
