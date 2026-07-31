@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-REST%20API-green)
+![Pytest](https://img.shields.io/badge/Tests-Passing-success)
+![Deployment](https://img.shields.io/badge/Render-Deployed-success)
+
 # 💰 Smart Expense Tracker REST API
 
 A RESTful expense management API built with **FastAPI** that allows users to create, view, filter, summarize, and delete personal expense records. The project demonstrates REST API design, request validation, modular backend architecture, JSON-based data persistence, and automated testing.
@@ -5,8 +10,8 @@ A RESTful expense management API built with **FastAPI** that allows users to cre
 ---
 ## 🌐 Live Demo
 
-- **API:** https://smart-expense-tracker-mpo7.onrender.com
-- **Swagger UI:** https://smart-expense-tracker.onrender.com/docs
+- **Live API:** https://smart-expense-tracker-mpo7.onrender.com
+- **Swagger UI:** https://smart-expense-tracker-mpo7.onrender.com/docs
 - 
 ## 🚀 Features
 
